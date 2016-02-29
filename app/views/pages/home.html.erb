@@ -1,0 +1,18 @@
+<% for u in @users %>
+	<%= "name: #{u.name}" %>
+	<%= "email: #{u.email}" %>
+	<%= "age: #{u.age}" %>
+<% end %>
+
+<br> 
+
+<% for c in @cats %>
+	<%= "name: #{c.name}" %>
+<% end %>
+
+<br>
+
+<% for todo in @todos %>
+	<%= "tasks: #{todo.tasks}" %>
+	<%= "finished: #{todo.finished}" %>
+<% end %>
